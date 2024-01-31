@@ -7,7 +7,7 @@
 
 import Foundation
 
-private let BASE_URL = "http://192.168.0.233:8080"
+private let BASE_URL = "http://localhost:8080"
 
 func fetchAllRecipes() async throws -> [RecipeList] {
     let endpoint = BASE_URL + "/recipes"
